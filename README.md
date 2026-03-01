@@ -12,6 +12,17 @@ This environment is designed to provide a reliable foundation for any AI, data, 
 automation project in my workspace. Use it as a fallback or main environment to ensure
 all tools are available and compatible.
 
+## Environment Management
+
+**The-One-Env** uses **pipenv** for environment management because pipenv keeps all
+virtual environments in a centralized location. This makes it ideal for a unified
+workspace shared across multiple projects, ensuring consistent dependency management
+and easy activation from any project folder.
+
+Once **uv** (a fast Python package manager) supports centralized virtual environment
+storage, it will be added to the repository. Both **uv** and **pipenv** will then be
+available as options for managing the environment.
+
 ## Dependencies
 
 ### Environment
