@@ -1,0 +1,46 @@
+[[source]]
+name = "pypi"
+verify_ssl = true
+url = "https://pypi.org/simple"
+
+[packages]
+# Environment.
+environs = "*"
+python-dotenv = "*"
+# Networking.
+requests = "*"
+# Models SDK.
+openai = "*"
+xai-sdk = "*"
+google-genai = "*"
+huggingface_hub = "*"
+# UI Framework.
+gradio = "*"
+# Document Processing.
+pypdf = "*"
+# Image Processing.
+pillow = "*"
+# Audio Processing.
+pyaudio = "*"
+simpleaudio = "*"
+
+[dev-packages]
+# Formatters.
+isort = "*"
+# Linters.
+mypy = "*"
+mccabe = "*"
+pyflakes = "*"
+pydocstyle = "*"
+pycodestyle = "*"
+# Testing.
+pytest = "*"
+coverage = "*"
+# Interactive Notebook.
+ipykernel = "*"
+ipywidgets = "*"
+# Build Tools.
+setuptools = "*"
+
+[requires]
+python_version = "3.13"
