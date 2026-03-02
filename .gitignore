@@ -16,3 +16,6 @@
 # OS - Windows
 Thumbs.db
 desktop.ini
+
+# Generated Scripts
+**activate-the-one-env.*
