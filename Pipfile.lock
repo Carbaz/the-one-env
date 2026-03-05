@@ -844,12 +844,12 @@
         },
         "google-genai": {
             "hashes": [
-                "sha256:68c025205856919bc03edb0155c11b4b833810b7ce17ad4b7a9eeba5158f6c44",
-                "sha256:d470eb600af802d58a79c7f13342d9ea0d05d965007cae8f76c7adff3d7a4750"
+                "sha256:7f127a39cf695277104ce4091bb26e417c59bb46e952ff3699c3a982d9c474ee",
+                "sha256:ffc01647b65046bca6387320057aa51db0ad64bcc72c8e3e914062acfa5f7c49"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.10'",
-            "version": "==1.65.0"
+            "version": "==1.66.0"
         },
         "googleapis-common-protos": {
             "hashes": [
@@ -1507,27 +1507,27 @@
         },
         "opentelemetry-api": {
             "hashes": [
-                "sha256:2edd8463432a7f8443edce90972169b195e7d6a05500cd29e6d13898187c9950",
-                "sha256:fbde8c80e1b937a2c61f20347e91c0c18a1940cecf012d62e65a7caf08967c9c"
+                "sha256:159be641c0b04d11e9ecd576906462773eb97ae1b657730f0ecf64d32071569f",
+                "sha256:82dd69331ae74b06f6a874704be0cfaa49a1650e1537d4a813b86ecef7d0ecf9"
             ],
             "markers": "python_version >= '3.9'",
-            "version": "==1.39.1"
+            "version": "==1.40.0"
         },
         "opentelemetry-sdk": {
             "hashes": [
-                "sha256:4d5482c478513ecb0a5d938dcc61394e647066e0cc2676bee9f3af3f3f45f01c",
-                "sha256:cf4d4563caf7bff906c9f7967e2be22d0d6b349b908be0d90fb21c8e9c995cc6"
+                "sha256:18e9f5ec20d859d268c7cb3c5198c8d105d073714db3de50b593b8c1345a48f2",
+                "sha256:787d2154a71f4b3d81f20524a8ce061b7db667d24e46753f32a7bc48f1c1f3f1"
             ],
             "markers": "python_version >= '3.9'",
-            "version": "==1.39.1"
+            "version": "==1.40.0"
         },
         "opentelemetry-semantic-conventions": {
             "hashes": [
-                "sha256:87c228b5a0669b748c76d76df6c364c369c28f1c465e50f661e39737e84bc953",
-                "sha256:9fa8c8b0c110da289809292b0591220d3a7b53c1526a23021e977d68597893fb"
+                "sha256:072f65473c5d7c6dc0355b27d6c9d1a679d63b6d4b4b16a9773062cb7e31192a",
+                "sha256:fa530a96be229795f8cef353739b618148b0fe2b4b3f005e60e262926c4d38e2"
             ],
             "markers": "python_version >= '3.9'",
-            "version": "==0.60b1"
+            "version": "==0.61b0"
         },
         "orjson": {
             "hashes": [
@@ -2108,12 +2108,12 @@
         },
         "pypdf": {
             "hashes": [
-                "sha256:527d6da23274a6c70a9cb59d1986d93946ba8e36a6bc17f3f7cce86331492dda",
-                "sha256:9edd1cd47938bb35ec87795f61225fd58a07cfaf0c5699018ae1a47d6f8ab0e3"
+                "sha256:07ba7f1d6e6d9aa2a17f5452e320a84718d4ce863367f7ede2fd72280349ab13",
+                "sha256:40bb2e2e872078655f12b9b89e2f900888bb505e88a82150b64f9f34fa25651d"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.9'",
-            "version": "==6.7.4"
+            "version": "==6.7.5"
         },
         "python-dateutil": {
             "hashes": [
@@ -2142,10 +2142,10 @@
         },
         "pytz": {
             "hashes": [
-                "sha256:360b9e3dbb49a209c21ad61809c7fb453643e048b38924c765813546746e81c3",
-                "sha256:5ddf76296dd8c44c26eb8f4b6f35488f3ccbf6fbbd7adee0b7262d43f0ec2f00"
+                "sha256:3378dde6a0c3d26719182142c56e60c7f9af7e968076f31aae569d72a0358ee1",
+                "sha256:f2fd16142fda348286a75e1a524be810bb05d444e5a081f37f7affc635035f7a"
             ],
-            "version": "==2025.2"
+            "version": "==2026.1.post1"
         },
         "pyyaml": {
             "hashes": [

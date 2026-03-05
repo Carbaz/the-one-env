@@ -4,5 +4,6 @@
 $envPath = pipenv --venv
 $psPath = $envPath -replace '/', '\'
 $activateCmd = "& $psPath\Scripts\Activate.ps1"
-Set-Content -Path activate-the-one-env.ps1 -Value $activateCmd
-Write-Host "PowerShell activation script created: activate-the-one-env.ps1"
+$scriptPath = Join-Path $PSScriptRoot "activate-the-one-env.ps1"
+Set-Content -Path $scriptPath -Value $activateCmd
+Write-Host "PowerShell activation script created: $scriptPath"
