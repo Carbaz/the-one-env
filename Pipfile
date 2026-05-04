@@ -3,19 +3,55 @@ name = "pypi"
 verify_ssl = true
 url = "https://pypi.org/simple"
 
+[[source]]
+name = "pytorch"
+verify_ssl = true
+url = "https://download.pytorch.org/whl/cu130"
+
 [packages]
 # Environment.
 environs = "*"
 python-dotenv = "*"
 # Networking.
 requests = "*"
+httpx = "*"
+# Data Validation.
+pydantic = "*"
 # Models SDK.
+groq = "*"
+ollama = "*"
 openai = "*"
 xai-sdk = "*"
+anthropic = "*"
 google-genai = "*"
 huggingface_hub = "*"
+# Agents SDK.
+crewai = {version = ">=1.14.4", extras = ["tools"]}
+openai-agents = "*"
+langchain = "*"
+langchain-core = "*"
+langchain-chroma = "*"
+langchain-openai = "*"
+langchain-ollama = "*"
+langchain-anthropic = "*"
+langchain-community = "*"
+langchain-text-splitters = "*"
+langchain-huggingface = "*"
+langchain-experimental = "*"
+langgraph = "*"
+langgraph-checkpoint-sqlite = "*"
+langsmith = "*"
+# Microsoft autogen (Not to be confused with "Autogen" AKA "AG2").
+autogen-ext = "*"
+autogen-core = "*"
+autogen-agentchat = "*"
 # UI Framework.
 gradio = "*"
+# Web Scraping.
+playwright = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+markdownify = "*"
 # Document Processing.
 pypdf = "*"
 # Image Processing.
@@ -23,6 +59,23 @@ pillow = "*"
 # Audio Processing.
 pyaudio = "*"
 simpleaudio = "*"
+# Messaging.
+resend = "*"
+sendgrid = "*"
+# Platform.
+modal = "*"
+wandb = "*"
+litellm = "*"
+# MCP.
+mcp = {version = "*", extras = ["cli"]}
+# Vector Databases.
+chromadb = "*"
+# Transformers.
+transformers = "*"
+sentence-transformers = "*"
+# PyTorch Computing.
+torch = {version = "*", index = "pytorch"}
+torchvision = {version = "*", index = "pytorch"}
 
 [dev-packages]
 # Formatters.
