@@ -24,6 +24,7 @@ openai = "*"
 xai-sdk = "*"
 anthropic = "*"
 google-genai = "*"
+deepgram-sdk = "*"
 huggingface_hub = "*"
 # Agents SDK.
 crewai = {version = ">=1.14.4", extras = ["tools"]}
@@ -48,10 +49,10 @@ autogen-agentchat = "*"
 # UI Framework.
 gradio = "*"
 # Web Scraping.
-playwright = "*"
-beautifulsoup4 = "*"
 lxml = "*"
+playwright = "*"
 markdownify = "*"
+beautifulsoup4 = "*"
 # Document Processing.
 pypdf = "*"
 # Image Processing.
