@@ -47,7 +47,10 @@ autogen-ext = "*"
 autogen-core = "*"
 autogen-agentchat = "*"
 # UI Framework.
+flask = "*"
 gradio = "*"
+fastapi = "*"
+aiohttp = "*"
 # Web Scraping.
 lxml = "*"
 playwright = "*"
