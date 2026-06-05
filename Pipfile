@@ -48,7 +48,7 @@ autogen-core = "*"
 autogen-agentchat = "*"
 # UI Framework.
 flask = "*"
-gradio = "*"
+gradio = "=6.16.0"
 fastapi = "*"
 aiohttp = "*"
 # Web Scraping.
