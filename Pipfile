@@ -75,6 +75,8 @@ litellm = "*"
 mcp = {version = "*", extras = ["cli"]}
 # Vector Databases.
 chromadb = "*"
+# Ranking.
+rank-bm25 = "*"
 # Transformers.
 transformers = "*"
 sentence-transformers = "*"
