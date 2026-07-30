@@ -52,6 +52,8 @@ flask = "*"
 gradio = "=6.16.0"
 fastapi = "*"
 aiohttp = "*"
+# UI Framework plugins.
+fastapi-clerk-auth = "*"
 # Web Scraping.
 lxml = "*"
 playwright = "*"
