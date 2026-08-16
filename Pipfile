@@ -49,7 +49,7 @@ autogen-core = "*"
 autogen-agentchat = "*"
 # UI Framework.
 flask = "*"
-gradio = "=6.16.0"
+gradio = "*"
 fastapi = "*"
 aiohttp = "*"
 # UI Framework plugins.
@@ -63,6 +63,9 @@ beautifulsoup4 = "*"
 pypdf = "*"
 # Image Processing.
 pillow = "*"
+# Computer Vision.
+ultralytics = "*"
+opencv-python = "*"
 # Audio Processing.
 pyaudio = "*"
 simpleaudio = "*"
